@@ -1,32 +1,3 @@
-/*  2015 / 2016 / 2017
- *  Frogger game by Andy Jackson - Twitter @andyhighnumber
- *  
- *  Special thanks to @senkunmusahi, who created the artwork bitmaps in the game using https://www.riyas.org/2013/12/online-led-matrix-font-generator-with.html
- *  
- *  Inspired by http://webboggles.com/ and includes some code from the #AttinyArcade games on that site
- *  The code that does not fall under the licenses of sources listed below can be used non commercially with attribution.
- *  This software is supplied without warranty of any kind.
- *  
- *  Controls:
- *  On the standard AttinyArcade:
- *  LEFT and RIGHT buttons move the frog across 
- *  BOTH BOTTONS TOGETHER move the frog forwards
- *  
- *  HIGHLY RECOMMENDED:
- *  On custom hardware (see schematic in folder where you found this file) there is an additional button to move frog forward  
- *  
- *  Also, from standby....
- *  Press and hold left button to turn sound on and off
- *  Press and hold left button with the right button held to reset high score
- * 
- *  This sketch is using the screen control and font functions written by Neven Boyanov for the http://tinusaur.wordpress.com/ project
- *  Source code and font files available at: https://bitbucket.org/tinusaur/ssd1306xled
- *  **Note that this highly size-optimised version requires modified library functions (which are in this source code file) 
- *  and a modified font header
- * 
- *  Sleep code is based on this blog post by Matthew Little:
- *  http://www.re-innovation.co.uk/web12/index.php/en/blog-75/306-sleep-modes-on-attiny85
-*/
 #include <EEPROM.h>
 #include "font6x8AJ2.h"
 #include <avr/pgmspace.h>
